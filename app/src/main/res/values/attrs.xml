@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="CustomSpinner">
+        <attr name="spinnerStyle" format="reference"/>
+    </declare-styleable>
+</resources>

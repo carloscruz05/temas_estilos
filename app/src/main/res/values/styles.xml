@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Tema Claro -->
+    <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="spinnerStyle">@style/SpinnerLight</item>
+    </style>
+
+    <!-- Tema Oscuro -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="colorAccent">@android:color/holo_blue_light</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="spinnerStyle">@style/SpinnerDark</item>
+    </style>
+
+    <!-- Estilo del Spinner para el tema claro -->
+    <style name="SpinnerLight" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Estilo del Spinner para el tema oscuro -->
+    <style name="SpinnerDark" parent="Widget.AppCompat.Spinner">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

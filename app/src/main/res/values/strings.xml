@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Temas y Estilos</string>
+    <string name="select_theme">Selecciona un tema</string>
+    <string-array name="themes_array">
+        <item>Tema Claro</item>
+        <item>Tema Oscuro</item>
+    </string-array>
+</resources>
